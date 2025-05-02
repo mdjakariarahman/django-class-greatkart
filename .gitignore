@@ -1,0 +1,68 @@
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.log
+
+# ========== Virtual Environments ==========
+env/
+venv/
+.venv/
+ENV/
+.env/
+env.bak/
+venv.bak/
+*.env
+*.venv
+Pipfile.lock
+poetry.lock
+
+# ========== Django Stuff ==========
+*.sqlite3
+db.sqlite3
+*.pot
+*.pyc
+*.mo
+*.log
+local_settings.py
+media/
+staticfiles/
+static_root/
+static/
+
+# ========== VS Code ==========
+.vscode/
+
+# ========== JetBrains (PyCharm, etc.) ==========
+.idea/
+*.iml
+
+# ========== OS-Specific ==========
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========== Git ==========
+.git/
+
+# ========== Testing ==========
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+htmlcov/
+.mypy_cache/
+.pyre/
+
+# ========== Docker ==========
+*.pid
+*.tar
+docker-compose.override.yml
+
+# ========== Other ==========
+*.bak
+*.swp
+*.tmp
